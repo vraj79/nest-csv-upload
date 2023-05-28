@@ -1,0 +1,41 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.file-input-container {
+  margin-bottom: 20px;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
+.loading {
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+}
+
+.result {
+  margin-top: 20px;
+}
